@@ -1,0 +1,66 @@
+{% extends 'base.html' %} {% load static %} 
+{% block title %}
+  Intro
+{% endblock title %}
+
+{% block content %}
+<div class="card mb-3 mt-2" style="max-width: 1200px; max-height: 700px">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img
+        src="{% static 'images/pp.jpg' %}"
+        class="img-fluid rounded-start"
+        alt="..."
+        id="image"
+      />
+    </div>
+    <div class="col-md-8 ">
+      <div class="card-body">
+        <h5 class="card-title">
+          <div class="badge bg-primary text-wrap" style="width: 6rem;">
+            Bonjour!
+          </div>
+        </h5>
+        <h1 class="card-text">
+          I 'm Adama Traore 😎
+          <h3>Etudiant en licence 3 Informatique 💻</h3>
+        </h1>
+        <hr>
+        <p class="card-text">
+          <dl class="row">
+            <dt class="col-sm-3"><i class="fas fa-birthday-cake"></i> AGE :</dt>
+            <dd class="col-sm-9">24</dd>
+
+            <dt class="col-sm-3"><i class="fas fa-map-marker-alt"></i> ADDRESSE :</dt>
+            <dd class="col-sm-9">
+              <p>Niary Tally , Rue Walo</p>
+            </dd>
+
+            <dt class="col-sm-3"><i class="fas fa-envelope"></i> EMAIL :</dt>
+            <dd class="col-sm-9">
+              <p>Liladams97@gmail.com</p>
+              <p>Adama.traore1@uvs.edu.sn</p>
+            </dd>
+
+            <dt class="col-sm-3 text-truncate"><i class="fas fa-phone-alt"></i> TELEPHONE :</dt>
+            <dd class="col-sm-9">
+              <p>78 152 58 56</p>
+              <p>33 864 32 74</p>
+            </dd>
+          </dl>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer bg-transparent ">
+    <nav class="nav justify-content-center">
+      <a class="nav-link active" aria-current="page" href="https://github.com/adamstra" target="_blank"><i class="fab fa-github"></i></a>
+      <a class="nav-link" href="https://twitter.com/adamstra1" target="_blank" ><i class="fab fa-twitter-square" ></i></a>
+      <a class="nav-link" href="https://www.facebook.com/adams.tra.10" target="_blank"><i class="fab fa-facebook" ></i></a>
+      <a class="nav-link " href="https://www.linkedin.com/in/adama-traor%C3%A9-5449a9161/" target="_blank"><i class="fab fa-linkedin" ></i></a>
+      <a class="nav-link " href="https://www.instagram.com/adams.tra/" target="_blank"><i class="fab fa-instagram-square" ></i></a>
+      <!-- <a class="nav-link " href="#"><i class="fab fa-linkedin"></i></a> -->
+    </nav>
+  </div>
+</div>
+{% endblock content %}

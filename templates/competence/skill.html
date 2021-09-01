@@ -1,0 +1,132 @@
+{% extends 'base.html' %} {% load static %} 
+{% block title %}
+  Skills
+{% endblock title %}
+
+{% block content %}
+<h1>Competence</h1>
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>Langages</h2>
+        <img
+          src="{% static 'images/html_5.svg' %}"
+          class="img-thumbnail"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          title="HTML 5 : 75% 😁"
+          id="icon"
+          style="width: 100px; height: 100px"
+        />
+        <img
+          src="{% static 'images/css3.svg' %}"
+          class="img-thumbnail"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          title="CSS 3 : 75% 😁"
+          id="icon"
+          style="width: 100px; height: 100px"
+        />
+        <img
+          src="{% static 'images/python.svg' %}"
+          class="img-thumbnail"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          title="PYTHON : Entre 75% et 85% 🙃"
+          id="icon"
+          style="width: 100px; height: 100px"
+        />
+        <img
+          src="{% static 'images/javascript.svg' %}"
+          class="img-thumbnail"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          title="JAVASCRIPT : 75% aussi 🥰"
+          id="icon"
+          style="width: 100px; height: 100px"
+        />
+      </div>
+      <div class="col-sm-6">
+        <h2>Framework</h2>
+        <img
+          src="{% static 'images/vue.svg' %}"
+          class="img-thumbnail"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          title="VUE JS : 65% 😎 My best framework frontend"
+          id="icon"
+          style="width: 100px; height: 100px"
+        />
+        <img
+          src="{% static 'images/flask.svg' %}"
+          class="img-thumbnail"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          title="FLASK : 50% 😁"
+          id="icon"
+          style="width: 100px; height: 100px"
+        />
+        <img
+          src="{% static 'images/node.svg' %}"
+          class="img-thumbnail"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          title="NODE JS : 50% 😊"
+          id="icon"
+          style="width: 100px; height: 100px"
+        />
+        <img
+          src="{% static 'images/django.svg' %}"
+          class="img-thumbnail"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          title="DJANGO : 85% 😁 My best Framework backend"
+          id="icon"
+          style="width: 100px; height: 100px"
+        />
+      </div>
+    </div>
+    <hr />
+    <div class="row justify-content-center">
+      <h1 class="text-center">Outils</h1>
+      <img
+        src="{% static 'images/blender.svg' %}"
+        class="img-thumbnail"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="BLENDER: Modelisation 3D => 50% 🙃"
+        id="icon"
+        style="width: 180px; height: 180px"
+      />
+      <img
+        src="{% static 'images/github.svg' %}"
+        class="img-thumbnail"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="GITHUB : une obligation 😁"
+        id="icon"
+        style="width: 180px; height: 180px"
+      />
+      <img
+        src="{% static 'images/unity.svg' %}"
+        class="img-thumbnail"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="UNITY 2D: Pour la creation des jeux 2D "
+        id="icon"
+        style="width: 180px; height: 180px"
+      />
+      <img
+        src="{% static 'images/UE4.svg' %}"
+        class="img-thumbnail"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="UNREAL ENGINE 4 : Creation des jeux avec Bleuprint"
+        id="icon"
+        style="width: 180px; height: 180px"
+      />
+    </div>
+  </div>
+</div>
+{% endblock content %}
